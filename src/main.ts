@@ -6,7 +6,10 @@ async function bootstrap() {
   app.enableCors({
     allowedHeaders: '*',
     // origin: 'https://fuse-products.vercel.app',
-    origin: '*',
+    origin: [
+      'https://fuse-products.vercel.app',
+      'https://prod-host-ts.vercel.app',
+    ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
