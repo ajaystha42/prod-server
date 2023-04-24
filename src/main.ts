@@ -9,6 +9,7 @@ async function bootstrap() {
     origin: [
       'https://fuse-products.vercel.app',
       'https://prod-host-ts.vercel.app',
+      'https://prod-cart-ts.vercel.app',
       'http://localhost:3000',
       'http://localhost:3001',
       'http://localhost:3002',
