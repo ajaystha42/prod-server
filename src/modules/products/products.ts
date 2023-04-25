@@ -90,6 +90,15 @@ const products: Product[] = [
       "The Gold and Silver Gears Fidget Spinner, by Gear Beast, is a steal of a deal on a super flashy fidget spinner. The body spins on high-quality stainless steel bearings, while the center piece is made from brass. It comes in a variety of colors, so no matter your style you're sure to find a fidget spinner you'll fall in love with.",
   },
   {
+    id: 4,
+    name: 'Gold and Silver Gears',
+    price: 9.99,
+    description: 'Sleek and beautiful, this spinner is so fast.',
+    image: 'https://fuse-api-products.vercel.app/fidget-10.jpg',
+    longDescription:
+      "The Gold and Silver Gears Fidget Spinner, by Gear Beast, is a steal of a deal on a super flashy fidget spinner. The body spins on high-quality stainless steel bearings, while the center piece is made from brass. It comes in a variety of colors, so no matter your style you're sure to find a fidget spinner you'll fall in love with.",
+  },
+  {
     id: 11,
     name: 'Gears Within Gears',
     price: 12.99,
