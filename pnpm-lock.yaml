@@ -1,9 +1,6 @@
 lockfileVersion: '6.0'
 
 dependencies:
-  '@':
-    specifier: nestjs/passport
-    version: github.com/nestjs/passport/f3b57632e835539f79d5ce2dcf9756b7d4ed2f1a(@nestjs/common@9.0.0)(passport@0.5.0)
   '@nestjs/common':
     specifier: ^9.0.0
     version: 9.0.0(class-validator@0.13.1)(reflect-metadata@0.1.13)(rxjs@7.2.0)
@@ -5088,18 +5085,3 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
-
-  github.com/nestjs/passport/f3b57632e835539f79d5ce2dcf9756b7d4ed2f1a(@nestjs/common@9.0.0)(passport@0.5.0):
-    resolution: {tarball: https://codeload.github.com/nestjs/passport/tar.gz/f3b57632e835539f79d5ce2dcf9756b7d4ed2f1a}
-    id: github.com/nestjs/passport/f3b57632e835539f79d5ce2dcf9756b7d4ed2f1a
-    name: '@nestjs/passport'
-    version: 9.0.3
-    prepare: true
-    requiresBuild: true
-    peerDependencies:
-      '@nestjs/common': ^8.0.0 || ^9.0.0
-      passport: ^0.4.0 || ^0.5.0 || ^0.6.0
-    dependencies:
-      '@nestjs/common': 9.0.0(class-validator@0.13.1)(reflect-metadata@0.1.13)(rxjs@7.2.0)
-      passport: 0.5.0
-    dev: false
